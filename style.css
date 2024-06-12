@@ -77,3 +77,8 @@ body {
         padding: 15px;
     }
 }
+
+/*thank you message*/
+.hidden-message {
+    display: none;
+}

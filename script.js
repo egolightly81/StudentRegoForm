@@ -26,4 +26,23 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     if (!password || password.length < 8) {
         isValid = false;
-        errorMessage += 'Password must
+        errorMessage += 'Password must be at least 8 characters long.\n';
+    }
+
+    if (password !== confirmPassword) {
+        isValid = false;
+        errorMessage += 'Passwords do not match.\n';
+    }
+
+    if (isValid) {
+        document.getElementById('thankYouMessage').classList.remove('hidden-message');
+        document.getElementById('registrationForm').reset(); // Optional: Reset the form after submission
+    } else {
+        alert(errorMessage);
+    }
+});
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
