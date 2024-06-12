@@ -17,6 +17,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+    border: 1px solid #ccc;
 }
 
 .heading-box {
@@ -43,11 +44,13 @@ label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+    text-align: left;
 }
 
 .input-field {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -56,6 +59,7 @@ label {
 .submit-button {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     background-color: #5cb85c;
     color: white;
     border: none;
