@@ -71,3 +71,9 @@ body {
 #submitButton:hover {
     background-color: #4cae4c;
 }
+
+@media (max-width: 600px) {
+    #container {
+        padding: 15px;
+    }
+}

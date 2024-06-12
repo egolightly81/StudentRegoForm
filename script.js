@@ -26,25 +26,4 @@ document.getElementById('registrationForm').addEventListener('submit', function(
 
     if (!password || password.length < 8) {
         isValid = false;
-        errorMessage += 'Password must be at least 8 characters long.\n';
-    }
-
-    if (password !== confirmPassword) {
-        isValid = false;
-        errorMessage += 'Passwords do not match.\n';
-    }
-
-    if (isValid) {
-        alert('Form Submitted Successfully!');
-        // Here you would typically send the form data to the server
-    } else {
-        alert(errorMessage);
-    }
-});
-
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
-
-// Chat GPT https://chatgpt.com/c/18b994ca-d6e4-41d6-9869-c4bae7fb1e01 // 
+        errorMessage += 'Password must

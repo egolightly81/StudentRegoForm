@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container" class="centered-container">
-        <h1 class="heading-box">Student Registration Form</h1>
-        <img src="https://th.bing.com/th?id=OIP.7G_WlWFRa7uxMxCZZ0qQngHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Learning Image" class="header-image">
+        <h1 id="heading" class="heading-box">Student Registration Form</h1>
+        <img src="https://th.bing.com/th?id=OIP.7G_WlWFRa7uxMxCZZ0qQngHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Learning Image" id="header-image" class="header-image">
         <form id="registrationForm" class="form">
-            <label for="firstName">First Name:</label>
+            <label for="firstName" class="label">First Name:</label>
             <input type="text" id="firstName" class="input-field" required>
             
-            <label for="lastName">Last Name:</label>
+            <label for="lastName" class="label">Last Name:</label>
             <input type="text" id="lastName" class="input-field" required>
             
-            <label for="email">Email:</label>
+            <label for="email" class="label">Email:</label>
             <input type="email" id="email" class="input-field" required>
             
-            <label for="password">Password:</label>
+            <label for="password" class="label">Password:</label>
             <input type="password" id="password" class="input-field" required>
             
-            <label for="confirmPassword">Confirm Password:</label>
+            <label for="confirmPassword" class="label">Confirm Password:</label>
             <input type="password" id="confirmPassword" class="input-field" required>
             
-            <label for="learningInterests">Learning Interests:</label>
+            <label for="learningInterests" class="label">Learning Interests:</label>
             <textarea id="learningInterests" class="input-field" rows="4" required></textarea>
             
             <button type="submit" id="submitButton" class="submit-button">Register</button>
         </form>
     </div>
-    <script src="validation.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
