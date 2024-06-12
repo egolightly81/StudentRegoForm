@@ -21,7 +21,7 @@ body {
 }
 
 .heading-box {
-    background-color: #5cb85c;
+    background-color: #4CAF50; /* Updated to a darker shade of green for better contrast */
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -60,7 +60,7 @@ body {
 #submitButton {
     width: calc(100% - 20px);
     padding: 10px;
-    background-color: #5cb85c;
+    background-color: #4CAF50; /* Updated to match the heading box color for consistency */
     color: white;
     border: none;
     border-radius: 4px;
@@ -69,7 +69,7 @@ body {
 }
 
 #submitButton:hover {
-    background-color: #4cae4c;
+    background-color: #45a049; /* Darker shade on hover for contrast */
 }
 
 @media (max-width: 600px) {
@@ -78,7 +78,7 @@ body {
     }
 }
 
-/*thank you message*/
+/* Thank you message */
 .hidden-message {
     display: none;
 }
