@@ -46,4 +46,6 @@ function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
 }
-<!-- ChatGPT reference: OpenAI ChatGPT is used to power this application https://chatgpt.com/c/18b994ca-d6e4-41d6-9869-c4bae7fb1e01  -->
+
+// This script uses ChatGPT from OpenAI for certain functionalities. https://chatgpt.com/c/18b994ca-d6e4-41d6-9869-c4bae7fb1e01
+// Reference: OpenAI ChatGPT
