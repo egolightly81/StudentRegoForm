@@ -7,30 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form id="registrationForm">
-        <h1>Register</h1>
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
-        
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        
-        <label for="confirmPassword">Confirm Password:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required>
-        
-        <label for="learningInterests">Learning Interests:</label>
-        <textarea id="learningInterests" name="learningInterests" rows="4" cols="50"></textarea>
-        
-        <button type="submit">Register</button>
-    </form>
+    <div class="container">
+        <div class="heading-box">
+            <h1>Student Registration Form</h1>
+        </div>
+        <img src="https://th.bing.com/th?id=OIP.7G_WlWFRa7uxMxCZZ0qQngHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Learning Image" class="header-image">
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" class="input-field" required>
+            </div>
+            <div class="form-group">
+                <label for="learningInterests">Learning Interests:</label>
+                <textarea id="learningInterests" class="input-field" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Register</button>
+        </form>
+    </div>
     <script src="validation.js"></script>
 </body>
 </html>
+
 
 // Chat GPT https://chatgpt.com/c/18b994ca-d6e4-41d6-9869-c4bae7fb1e01 // 
